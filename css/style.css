@@ -4,6 +4,7 @@ html{
     font-family: 'Comfortaa', cursive,'Dosis', sans-serif,Helvetica,Arial,YuGothic,"游ゴシック体","Yu Gothic","游ゴシック","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
     font-size:62.5%;
     background-color:#F8F8FF;	
+
 }
 nav {
     font-size: 2.5rem;
@@ -71,6 +72,7 @@ body{
        font-size:2.1rem;
     line-height: 1.5;
     text-align: center;
+
 }
 
 
@@ -104,13 +106,17 @@ h2 {
   margin-left: 32px;
 }
 
-
+#works{
+	margin-left:80px;
+ 	margin-right:80px;
+ 	padding-bottom:30px;
+}
 
 #works .sample {
   display: inline-block;
   z-index: 0;
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   object-fit: cover;
   object-position: 50% 20%
 }
@@ -129,8 +135,8 @@ h2 {
 	height: 35px;
 	border-radius:20px;
 	font-size:25px;
-	margin-top:155px;
-	margin-left:-290px;
+	margin-top:200px;
+	margin-left:-340px;
 
 	border: 2px solid #F8F8FF;
 	text-align: center;
@@ -152,10 +158,10 @@ h2 {
 	display:inline-block;
 	border-radius:20px;
 	border: 3px solid #db5424;
-	width:278px;
-	height:180px;
-	margin-top:10px;
-	background-color: #fff;
+	width:330px;
+	height:230px;
+	margin-top:7px;
+	background-color: #F8F8FF;
 	color: #333	;
 	transition-duration: 0.3s;
 
@@ -163,15 +169,56 @@ h2 {
 .btn:hover span:nth-child(2) {
 	z-index:0;
 }
-
-p{
+#profile{
+	padding-bottom:30px;
+	margin-left:80px;
+ 	margin-right:80px;
+ 	
+}
+#profile p{
 	color:333;
-	margin-left:100px;
-	margin-right:100px;
-	margin-top:0px;
+	margin-left:20px;
+	margin-right:10px;
+}
+#profile .sample{
+	width:80%;
+	border-radius:300px;
+}
+#profile .blocka{
+	float: left;
+    width: 30%;
+    padding-left:0px;
+
+
+}
+#profile .blockb{
+    text-align:left;
+    margin-left:30%;
+    border-left:medium dotted #FAC609;
+}
+
+#skill{
+	padding-bottom:30px;
+	margin-left:80px;
+ 	margin-right:80px;
+}
+#skill div.blocka {
+   float: left;
+   width: 33%;
+   border-right:medium dotted #FAC609;
+}
+#skill div.blockb {
+   float: left;
+   width: 33%;
+   border-right:medium dotted #FAC609;
+}
+#skill div{
+	line-height:40px;
 }
 
 footer{
-	background:#db5424;
-	padding:30px;
+	background:#FAC609;
+	margin-top:220px;
+	padding:90px;
 }
+
