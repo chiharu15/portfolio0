@@ -3,9 +3,10 @@
 html{
     font-family: 'Comfortaa', cursive,'Dosis', sans-serif,Helvetica,Arial,YuGothic,"游ゴシック体","Yu Gothic","游ゴシック","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
     font-size:62.5%;
+    background-color:#F8F8FF;	
 }
 nav {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -17,7 +18,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     min-width: 33%;
-    background: #ffffff;
+    background: #F8F8FF	;
 
     position: relative;
     padding:20px 0px;
@@ -78,7 +79,7 @@ a {
 }
 
 .siteTitle {
-    background: #ffffff;
+    background: #F8F8FF;
     color: #FAC609;
     font-size: 9rem;
     font-family: 'Dosis', sans-serif;
@@ -126,44 +127,51 @@ h2 {
 	position: absolute;
 	width: 35px;
 	height: 35px;
-	border-radius:30px;
+	border-radius:20px;
 	font-size:25px;
 	margin-top:155px;
 	margin-left:-290px;
 
-	border: 2px solid #fff;
+	border: 2px solid #F8F8FF;
 	text-align: center;
 	line-height: 40px;
 	
 }
 .btn span:nth-child(1) {
-	display:none;
+	z-index:1;
+	display:inline-block;
+	overflow:hidden;
+	color:transparent;
+	transition-duration: 0.3s;
 }
 .btn span:nth-child(2) {
-	background-color: #db5424;
-	color: #fff;
- 
+	background-color: #FAC609;
+	color: #F8F8FF;
 }
 .btn:hover span:nth-child(1) {
 	display:inline-block;
 	border-radius:20px;
+	border: 3px solid #db5424;
 	width:278px;
 	height:180px;
 	margin-top:10px;
-	background-color: #FAC609;
-	color: #fff;
+	background-color: #fff;
+	color: #333	;
+	transition-duration: 0.3s;
 
 }
 .btn:hover span:nth-child(2) {
-	display: none;
+	z-index:0;
 }
 
-
-.sample{
-  width: 20%;
-}
-.box-img,
-.box-text{
-  display: inline-block;
+p{
+	color:333;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:0px;
 }
 
+footer{
+	background:#db5424;
+	padding:30px;
+}
